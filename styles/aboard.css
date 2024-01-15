@@ -21,7 +21,8 @@
      justify-content: space-between;
      align-items: center;
  }
-/* logo related styles */
+
+ /* logo related styles */
  .logo {
      display: flex;
      gap: 10px;
@@ -35,9 +36,12 @@
      font-size: 2.25rem;
      font-weight: 800;
  }
- .logo-aboard{
-    color: #FF5400;;
+
+ .logo-aboard {
+     color: #FF5400;
+     ;
  }
+
  /* logo related style end here */
 
  nav>ul {
@@ -56,8 +60,10 @@
      font-size: 1.125rem;
      font-weight: 400;
  }
- .nav-home{
-    color: #FF5400;;
+
+ .nav-home {
+     color: #FF5400;
+     ;
  }
 
  /* header related style end here */
@@ -130,13 +136,48 @@
      font-weight: 400;
 
  }
- /* popular tour related styles */
- .popular-tour{
-    display: flex;
-    padding: 100px 120px;
- }
- .tour-content > ul{
-    padding-left: 20px;
-    padding-right: 20px;
 
+ /* popular tour related styles */
+ .popular-tour {
+     display: flex;
+     padding: 100px 120px;
+     gap: 50px;
+ }
+
+ .tour-content >ul {
+     padding-left: 30px;
+     padding-right: 50px;
+
+ }
+
+ .tour-tittle {
+     color: #131318;
+     font-family: Mulish;
+     font-size: 2.5rem;
+     font-weight: 800;
+ }
+
+ .tour-des,ul {
+     color: rgba(19, 19, 24, 0.70);
+     font-size: 1rem;
+     font-weight: 400;
+     line-height: 26px;
+     margin-top: 30px;
+ }
+ .tour-content li{
+    margin-top: 10px;
+
+ }
+ .tour-content input[type="submit"] {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+    background: #FF5400;
+    padding: 16px;
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 30px;
  }
