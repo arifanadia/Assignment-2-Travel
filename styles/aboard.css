@@ -25,7 +25,7 @@
  /* logo related styles */
  .logo {
      display: flex;
-     gap: 10px;
+     gap: 20px;
  }
 
  .logo-name {
@@ -39,7 +39,7 @@
 
  .logo-aboard {
      color: #FF5400;
-     ;
+
  }
 
  /* logo related style end here */
@@ -70,6 +70,7 @@
 
 
  /* hero section related styles */
+
  .hero {
      background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/hero.png);
      height: 100%;
@@ -123,7 +124,7 @@
      font-weight: 400;
  }
 
- .form input[type="search"] {
+ .form button {
      width: 174px;
      height: 52px;
      border-radius: 8px;
@@ -144,7 +145,7 @@
      gap: 50px;
  }
 
- .tour-content >ul {
+ .tour-content>ul {
      padding-left: 30px;
      padding-right: 50px;
 
@@ -157,27 +158,65 @@
      font-weight: 800;
  }
 
- .tour-des,ul {
+ .tour-des,
+ ul {
      color: rgba(19, 19, 24, 0.70);
      font-size: 1rem;
      font-weight: 400;
      line-height: 26px;
      margin-top: 30px;
  }
- .tour-content li{
-    margin-top: 10px;
+
+ .tour-content li {
+     margin-top: 10px;
 
  }
+
  .tour-content input[type="submit"] {
-    width: 174px;
-    height: 52px;
-    border-radius: 8px;
-    border: none;
-    background: #FF5400;
-    padding: 16px;
-    color: #FFF;
-    text-align: center;
-    font-size: 1rem;
-    font-weight: 400;
-    margin-top: 30px;
+     width: 174px;
+     height: 52px;
+     border-radius: 8px;
+     border: none;
+     background: #FF5400;
+     padding: 16px;
+     color: #FFF;
+     text-align: center;
+     font-size: 1rem;
+     font-weight: 400;
+     margin-top: 30px;
+ }
+ footer{
+    margin: 0 auto;
+
+ }
+
+ .footer {
+     background: rgba(19, 19, 24, 0.05);
+     padding: 120px;
+ }
+ .footer .logo{
+    display: flex;
+    justify-content: center;
+ }
+
+ .footer-des,.footer-des-2 {
+     color: #5A5A5D;
+     text-align: center;
+     font-size: 1rem;
+     font-weight: 400;
+     line-height: 26px;
+     margin-top: 10px;
+ }
+ .social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 32px;
+ }
+ hr{
+    width: 50%;
+    margin: 0 auto;
+ }
+ .footer-des-2{
+    margin-top: 50px;
  }
