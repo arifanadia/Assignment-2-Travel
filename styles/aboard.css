@@ -80,7 +80,7 @@
      border-radius: 16px;
      text-align: center;
      padding: 120px;
-     margin: 50px 100px;
+     margin: 50px 120px;
  }
 
  .hero-tittle {
@@ -138,6 +138,8 @@
 
  }
 
+ /* hero section related styles end here */
+
  /* popular tour related styles */
  .popular-tour {
      display: flex;
@@ -151,7 +153,8 @@
 
  }
 
- .tour-tittle {
+ .tour-tittle,
+ .destination-tittle {
      color: #131318;
      font-family: Mulish;
      font-size: 2.5rem;
@@ -159,7 +162,8 @@
  }
 
  .tour-des,
- ul {
+ ul,
+ .destination-des {
      color: rgba(19, 19, 24, 0.70);
      font-size: 1rem;
      font-weight: 400;
@@ -185,8 +189,113 @@
      font-weight: 400;
      margin-top: 30px;
  }
- footer{
-    margin: 0 auto;
+
+ /* popular tour related styles end here */
+
+ /* destination related styles */
+ .destination-content {
+     width: 50%;
+     margin: 0 auto;
+     text-align: center;
+
+ }
+
+ .place-name {
+     padding: 120px;
+     color: #FFF;
+     text-align: center;
+     font-size: 1.75rem;
+     font-weight: 800;
+ }
+
+ .row-1 {
+     grid-area: row-1;
+     background-image: url(../Images/Maldives.png);
+     background-repeat: no-repeat;
+     width: 100%;
+     background-position: center;
+     background-size: cover;
+     border-radius: 16px;
+ }
+
+ .row-2 {
+     grid-area: row-2;
+     background-image: url(../Images/Indonesia.png);
+     background-repeat: no-repeat;
+     width: 100%;
+     background-position: center;
+     background-size: cover;
+     border-radius: 16px;
+ }
+
+ .row-3 {
+     grid-area: row-3;
+     background-image: url(../Images/Srilanka.png);
+     background-repeat: no-repeat;
+     width: 100%;
+     background-position: center;
+     background-size: cover;
+     border-radius: 16px;
+ }
+
+ .row-4 {
+     grid-area: row-4;
+     background-image: url(../Images/North\ America.png);
+     background-repeat: no-repeat;
+     width: 100%;
+     background-position: center;
+     background-size: cover;
+     border-radius: 16px;
+ }
+
+ .row-5 {
+     grid-area: row-5;
+     background-image: url(../Images/Kashmir.png);
+     background-repeat: no-repeat;
+     width: 100%;
+     background-position: center;
+     background-size: cover;
+     border-radius: 16px;
+ }
+
+ .row-6 {
+     grid-area: row-6;
+     background-image: url(../Images/Bangladesh.png);
+     background-repeat: no-repeat;
+     width: 100%;
+     background-position: center;
+     background-size: cover;
+     border-radius: 16px;
+ }
+
+ .row-7 {
+     grid-area: row-7;
+     background-image: url(../Images/Bandarban.png);
+     background-repeat: no-repeat;
+     width: 100%;
+     background-position: center;
+     background-size: cover;
+     border-radius: 16px;
+ }
+
+ .destination-grid {
+     margin-top: 50px;
+     display: grid;
+     justify-content: center;
+     gap: 20px;
+     grid-template-areas:
+         "row-1 row-1 row-2 row-2"
+         "row-3 row-4 row-4 row-5"
+         "row-6 row-7 row-7 row-7";
+ }
+ /* destination section end here */
+
+ /* choose-us related styles */
+
+
+ /* footer section related styles */
+ footer {
+     margin: 0 auto;
 
  }
 
@@ -194,12 +303,14 @@
      background: rgba(19, 19, 24, 0.05);
      padding: 120px;
  }
- .footer .logo{
-    display: flex;
-    justify-content: center;
+
+ .footer .logo {
+     display: flex;
+     justify-content: center;
  }
 
- .footer-des,.footer-des-2 {
+ .footer-des,
+ .footer-des-2 {
      color: #5A5A5D;
      text-align: center;
      font-size: 1rem;
@@ -207,16 +318,21 @@
      line-height: 26px;
      margin-top: 10px;
  }
- .social-icons{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 32px;
+
+ .social-icons {
+     display: flex;
+     justify-content: center;
+     gap: 20px;
+     padding: 32px;
  }
- hr{
-    width: 50%;
-    margin: 0 auto;
+
+ hr {
+     width: 50%;
+     margin: 0 auto;
  }
- .footer-des-2{
-    margin-top: 50px;
+
+ .footer-des-2 {
+     margin-top: 50px;
  }
+
+ /* footer section related styles end here */
