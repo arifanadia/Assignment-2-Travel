@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aventures Aboard</title>
     <link rel="stylesheet" href="styles/aboard.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"  />
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
 </head>
 
 <body>
     <!-- header section started here -->
     <header>
-        <nav>
+        <section class="header">
             <div class="logo">
                 <div class="logo-png">
                     <img src="Images/logo.png" alt="">
@@ -21,14 +23,17 @@
                     <h2 class="logo-name">Aventures <span class="logo-aboard">Aboard</span></h2>
                 </div>
             </div>
-            <ul>
-                <li><a href=""><span class="nav-home">Home</span></a></li>
-                <li><a href="">Packages</a></li>
-                <li><a href="">Testimonial</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-        </nav>
+            <nav>
+                <ul>
+                    <li class="nav-item"><a href=""><span class="nav-home">Home</span></a></li>
+                    <li class="nav-item"><a href="">Packages</a></li>
+                    <li class="nav-item"><a href="">Testimonial</a></li>
+                    <li class="nav-item"><a href="">Blog</a></li>
+                    <li class="nav-item"><a href="">Contact</a></li>
+                    <li class="nav-bar"><a href=""><i class="fa-solid fa-bars"></i></a></li>
+                </ul>
+            </nav>
+        </section>
 
     </header>
     <!-- header section end here -->
@@ -39,10 +44,11 @@
         <!-- Hero section started here -->
         <section class="hero">
             <h1 class="hero-tittle">Explore Your Travel</h1>
-            <p class="hero-des">The pleasures of discovering new things and the joy that comes with meeting new people or the thrill of eating new foods all come together to create a feeling of happiness in any traveller.
+            <p class="hero-des">The pleasures of discovering new things and the joy that comes with meeting new people
+                or the thrill of eating new foods all come together to create a feeling of happiness in any traveller.
             </p>
 
-            <form class="form">
+            <form class="hero-form">
                 <input type="text" name="Where go" placeholder="Where go" id="">
                 <select name="" id="">
                     <option value="when">When</option>
@@ -50,21 +56,27 @@
                 <select name="" id="">
                     <option value="Select Type">Select Type</option>
                 </select>
-                <button><i class="fa fa-magnifying-glass"></i> Find Now</button>
+                <button class="btn-primary"><i class="fa fa-magnifying-glass"></i> Find Now</button>
             </form>
         </section>
         <!-- popular tour section started here -->
         <section class="popular-tour">
-            <div class="tour-content">
-                <h2 class="tour-tittle">Our Popular Tours</h2>
-                <p class="tour-des">If you’re ready to inspire what’s next for your students, this is the perfect place to start. The itineraries in this travel collection are chosen time and time again—and it’s easy to see why.</p>
+            <div class="special-content">
+                <h2 class="special-tittle">Our Popular Tours</h2>
+                <p class="special-des">If you’re ready to inspire what’s next for your students, this is the perfect
+                    place to start. The itineraries in this travel collection are chosen time and time again—and it’s
+                    easy to see why.</p>
                 <ul>
-                    <li>From Rome to Reykjavík, Dublin to Delphi, journey through the centuries on your student trip to Europe. </li>
-                    <li>On EF Asia tours, you’ll jump between millennia in minutes. Peaceful pagodas and traditional temples blend seamlessly into modern metropolises. </li>
-                    <li>EF Latin America tours: where you can zipline through the Belizean canopy, hike volcanoes in Costa Rica, or uncover the mysteries of Machu Picchu. </li>
+                    <li>From Rome to Reykjavík, Dublin to Delphi, journey through the centuries on your student trip to
+                        Europe. </li>
+                    <li>On EF Asia tours, you’ll jump between millennia in minutes. Peaceful pagodas and traditional
+                        temples blend seamlessly into modern metropolises. </li>
+                    <li>EF Latin America tours: where you can zipline through the Belizean canopy, hike volcanoes in
+                        Costa Rica, or uncover the mysteries of Machu Picchu. </li>
                 </ul>
-                <p class="tour-des">With its stunning untouched reefs and coral gardens inhabited by an abundance of marine life, Borneo Reef is the perfect destination for all types of sea sports and activities such as snorkeling and kayaking. </p>
-                <input type="submit" value="Read More" >
+                <p class="special-des">With its stunning untouched reefs and coral gardens inhabited by an abundance of marine life, Borneo Reef is the perfect destination for all types of sea sports and activities such
+                    as snorkeling and kayaking. </p>
+                <button class="btn-primary">Read More</button>
             </div>
             <img src="Images/popular-tour.png" alt="">
         </section>
@@ -72,35 +84,121 @@
 
         <!-- destination section started here -->
         <section class="destination">
-            <div class="destination-content">
-                <h1 class="destination-tittle">Choose Your Destination</h1>
-                <p class="destination-des">Choosing a travel destination can be quite challenging. If you can't decide where to travel to next and need a little bit of help, you've come to the right place. </p>
+            <div class="section-content">
+                <h1 class="section-tittle">Choose Your Destination</h1>
+                <p class="section-des">Choosing a travel destination can be quite challenging. If you can't decide where
+                    to travel to next and need a little bit of help, you've come to the right place. </p>
             </div>
             <div class="destination-grid">
                 <div class="row-1">
-                    <h4 class="place-name">Maldives</h4>
+                    <h4 class="place-name imp-1">Maldives</h4>
                 </div>
                 <div class="row-2">
-                    <h4 class="place-name">Indonesia</h4>
+                    <h4 class="place-name imp-1">Indonesia</h4>
                 </div>
                 <div class="row-3">
-                    <h4 class="place-name">Srilanka</h4>
+                    <h4 class="place-name imp-3">Srilanka</h4>
                 </div>
                 <div class="row-4">
-                    <h4 class="place-name">North America</h4>
+                    <h4 class="place-name imp-1">North America</h4>
                 </div>
                 <div class="row-5">
-                    <h4 class="place-name">Kashmir</h4>
+                    <h4 class="place-name imp-3">Kashmir</h4>
                 </div>
                 <div class="row-6">
-                    <h4 class="place-name">Bangladesh</h4>
+                    <h4 class="place-name imp-3">Bangladesh</h4>
                 </div>
                 <div class="row-7">
-                    <h4 class="place-name">Bandarban</h4>
+                    <h4 class="place-name imp-2">Bandarban</h4>
                 </div>
             </div>
-           
         </section>
+        <!-- destination section end here -->
+
+        <!-- Choose-us section started here -->
+        <section class="choose-us ">
+            <div class="section-content">
+                <h1 class="section-tittle">Why Choose Us</h1>
+                <p class="section-des"> We are innovative and passionate about the work we do. We always come up with
+                    new ways to enrich your revenue to greater heights. Extraordinary and High Quality services: We have
+                    a supreme team who works rigorously to grown businesses beyond client's expectations. </p>
+            </div>
+            <div class="choose-us-facilities">
+                <div class="facilitie">
+                    <img src="Images/hotel.png" alt="">
+                    <h2 class="facilitie-tittle">Handpicked Hotels</h2>
+                    <p class="facilitie-des">A hotel is a commercial establishment that provides lodging, meals, and
+                        other services to guests, travelers, and tourists. </p>
+                </div>
+                <div class="facilitie-2">
+                    <img src="Images/map.png" alt="">
+                    <h2 class="facilitie-tittle">World Class Service </h2>
+                    <p class="facilitie-des">A hotel is a commercial establishment that provides lodging, meals, and
+                        other services to guests, travelers, and tourists. </p>
+                </div>
+
+            </div>
+            <div class="choose-us-facilities-2">
+                <div class="facilitie-3">
+                    <img src="Images/price-tag.png" alt="">
+                    <h2 class="facilitie-tittle">Best Price Guarantee Hotels</h2>
+                    <p class="facilitie-des">A hotel is a commercial establishment that provides lodging, meals, and
+                        other services to guests, travelers, and tourists. </p>
+                </div>
+            </div>
+        </section>
+        <!-- choose-us section end here -->
+
+        <!-- perfect place started here -->
+        <section class="perfect-place">
+            <div class="perfect-content">
+                <h2 class="special-tittle">A Simple Perfect Place To Get Lost</h2>
+                <p class="special-des">If you’re ready to inspire what’s next for your students, this is the perfect
+                    place to start. The itineraries in this travel collection are chosen time and time again—and it’s
+                    easy to see why.</p>
+                <ul>
+                    <li>From Rome to Reykjavík, Dublin to Delphi, journey through the centuries on your student trip to
+                        Europe. </li>
+                    <li>On EF Asia tours, you’ll jump between millennia in minutes. Peaceful pagodas and traditional
+                        temples blend seamlessly into modern metropolises. </li>
+                </ul>
+                <button class="btn-primary">See More</button>
+            </div>
+            <div class="perfect-vdo">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/5s8fs_j2xlY?si=XC5E2ikI6vl4bSdd"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+
+
+
+        </section>
+        <!-- perfect palace end here -->
+
+        <!-- newsletter section started here -->
+        <section class="newsletter">
+            <div class="newsletter-content">
+                <h2 class="newsletter-tittle">Newsletter</h2>
+                <p class="newsletter-des">Get your daily dose of travel news & tips. Sign up today!</p>
+                <form class="newsletter-form">
+                    <input type="text" placeholder="Enter your name"> <br>
+                    <input type="email" name="email" placeholder="Enter your email" id=""><br>
+                    <button class="btn-primary">Subscribe</button>
+                </form>
+            </div>
+            <div class="newsletter-badge">
+                <img class="newsletter-img" src="Images/newsletter.png" alt="">
+                <div class="save-up">
+                    <h4 class="save-tittle">Travel.com</h4>
+                    <h2 class="save-to">Save up to 70%</h2>
+                </div>
+
+            </div>
+
+        </section>
+
+
 
     </main>
 
@@ -117,16 +215,17 @@
                     <h2 class="logo-name">Aventures <span class="logo-aboard">Aboard</span></h2>
                 </div>
             </div>
-            <p class="footer-des">A good plus of traveling is that often you get new skills without difficulty and without even noticing it.</p>
-           </div>
-           <div class="social-icons">
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-github"></i>
-           </div>
-           <hr>
-           <p class="footer-des-2">2017, All Rights Reserved.</p>
+            <p class="footer-des">A good plus of traveling is that often you get new skills without difficulty and
+                without even noticing it.</p>
+            </div>
+            <div class="social-icons">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-github"></i>
+            </div>
+            <hr>
+            <p class="footer-des-2">2017, All Rights Reserved.</p>
         </section>
     </footer>
     <!-- footer section end here -->
