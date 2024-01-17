@@ -1,0 +1,150 @@
+@media screen and (max-width:600px) {
+
+    header,
+    main {
+        width: 100%;
+        margin: 0 10px;
+
+    }
+
+    .logo-name {
+        font-size: 1.375rem;
+
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .nav-bar {
+        display: block;
+    }
+
+    .hero {
+        padding: 20px;
+        margin: 0px auto;
+    }
+
+    .hero-tittle {
+        padding-top: 20px;
+        font-size: 1.375rem;
+        margin: 10px;
+    }
+
+    .hero-des {
+        font-size: 0.875rem;
+        margin-top: 10px;
+    }
+
+    .hero-form {
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+
+    .hero-form input[type="text"],
+    select,
+    .hero-form button {
+        width: 100%;
+    }
+
+    .popular-tour {
+        flex-direction: column;
+        margin: 50px 20px;
+    }
+
+    .special-tittle,
+    .section-tittle {
+        font-size: 1.25rem;
+    }
+
+    .special-des,
+    ul,
+    .section-des {
+        font-size: 0.875rem;
+        margin-top: 10px;
+    }
+
+
+    .place-name {
+        padding: 120px;
+        font-size: 1.25rem;
+    }
+
+    .destination-grid {
+        margin-top: 30px;
+        grid-template-areas:
+            "row-1"
+            "row-2"
+            "row-3"
+            "row-4"
+            "row-5"
+            "row-6"
+            "row-7"
+
+    }
+
+    .choose-us-facilities,
+    .choose-us-facilities-2 {
+        width: 80%;
+        flex-direction: column;
+
+    }
+    .deals{
+       margin: 0 20px;
+    }
+    .deals-container{
+       flex-direction: column;
+    }
+    .deals-box {
+       width: 100%;
+       padding: 24px;
+       justify-content: center;
+   }
+   
+    .perfect-place {
+        flex-direction: column;
+        margin: 50px;
+    }
+
+    .perfect-content,
+    .special-content,
+    .perfect-vdo {
+        width: 100%;
+    }
+
+    .newsletter {
+        flex-direction: column;
+        margin: 0 20px;
+    }
+
+    .save-up {
+        width: 214.023px;
+        height: 79.268px;
+        transform: rotate(-19.628deg);
+        border-radius: 10.569px;
+        padding: 10px;
+    }
+
+    .save-tittle,
+    .footer-des {
+        font-size: 0.938rem;
+
+    }
+
+    .save-to,
+    .logo-name {
+        font-size: 1.321rem;
+    }
+    .partnership-container{
+        flex-wrap: wrap;
+    } 
+    footer {
+        margin-top: 50px;
+    }
+
+    .footer {
+        padding: 50px;
+    }
+
+}

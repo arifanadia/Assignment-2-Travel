@@ -383,12 +383,83 @@
 
  /* choose-us section end here */
 
+ /* deals and discount section started here */
+ .deals .section-des{
+    margin-bottom: 40px;
+ }
+ .deals-container {
+     background-image: url('../Images/Group\ 39.png');
+     background-repeat: no-repeat;
+     border-radius: 16px;
+     padding: 56px;
+     display: flex;
+     justify-content: flex-end;
+     margin-top: 20px;
+ }
+ .deals-container-2{
+    background-image: url('../Images/Group\ 40.png');
+    display: flex;
+    justify-content: flex-start;
+}
+ 
+
+ .deals-box {
+     width: 579px;
+     padding: 50px 77px 50px 50px;
+     border-radius: 16px;
+     border: 2px solid #FFF;
+     background: rgba(255, 255, 255, 0.80);
+ }
+
+
+ .deals-item-box {
+     display: flex;
+     align-items: center;
+     gap: 24px;
+ }
+
+ .box-item {
+     display: flex;
+     align-items: center;
+     gap: 10px;
+ }
+
+ .box-item h6 {
+     color: #5A5A5D;
+     font-size: 1rem;
+     align-items: center;
+     font-weight: 400;
+ }
+
+ .deals-box-title {
+     margin: 20px 0;
+     color: #131318;
+     font-size: 1.5rem;
+     font-weight: 800;
+ }
+
+ .deals-box-des {
+     color: #5A5A5D;
+     font-size: 1rem;
+     font-weight: 400;
+     line-height: 26px;
+ }
+
+ .deals-box-price {
+     margin: 20px 0;
+     color: #FF5400;
+     font-size: 1.25rem;
+     font-weight: 800;
+ }
+ /* deals section end here */
+
  /* perfect-place section related styles */
 
  .perfect-place {
      display: flex;
      align-items: center;
      gap: 24px;
+     margin-top: 100px;
  }
 
  .perfect-content {
@@ -512,6 +583,26 @@
      font-weight: 800;
      margin-top: 10px;
  }
+ /* partnership related styles */
+ .partnership {
+    max-width: 1170px;
+    margin: 20px auto;
+    background: #FFF;
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+
+}
+
+.partnership-container {
+    display: flex;
+    justify-content: center;
+    gap: 61px;
+    padding: 30px;
+}
+ .partnership-container img { 
+    width: 100px;
+ }
+ 
 
 
  /* footer section related styles */
@@ -558,131 +649,4 @@
 
  /* footer section related styles end here */
 
-
- @media screen and (max-width:600px) {
-
-     header,
-     main {
-         width: 100%;
-         margin: 0 10px;
-
-     }
-
-     .logo-name {
-         font-size: 1.375rem;
-
-     }
-
-     .nav-item {
-         display: none;
-     }
-
-     .nav-bar {
-         display: block;
-     }
-
-     .hero {
-         padding: 20px;
-         margin: 0px auto;
-     }
-
-     .hero-tittle {
-         padding-top: 20px;
-         font-size: 1.375rem;
-         margin: 10px;
-     }
-
-     .hero-des {
-         font-size: 0.875rem;
-         margin-top: 10px;
-     }
-
-     .hero-form {
-         flex-direction: column;
-         align-items: center;
-         width: 80%;
-     }
-
-     .hero-form input[type="text"],
-     select,
-     .hero-form button {
-         width: 100%;
-     }
-
-     .popular-tour {
-         flex-direction: column;
-         margin: 50px 20px;
-     }
-
-     .special-tittle,
-     .section-tittle {
-         font-size: 1.25rem;
-     }
-
-     .special-des,
-     ul,
-     .section-des {
-         font-size: 0.875rem;
-         margin-top: 10px;
-     }
-
-
-     .place-name {
-         padding: 120px;
-         font-size: 1.25rem;
-     }
-
-     .destination-grid {
-         margin-top: 30px;
-         grid-template-areas:
-             "row-1"
-             "row-2"
-             "row-3"
-             "row-4"
-             "row-5"
-             "row-6"
-             "row-7"
-
-     }
-
-     .choose-us-facilities,
-     .choose-us-facilities-2 {
-         width: 80%;
-         flex-direction: column;
-
-     }
-
-     .perfect-place {
-         flex-direction: column;
-         margin: 10px;
-     }
-
-     .perfect-content,
-     .special-content,
-     .perfect-vdo {
-         width: 100%;
-     }
-
-     .newsletter {
-         flex-direction: column;
-         margin: 0 20px;
-     }
-
-     .save-up {
-         width: 214.023px;
-         height: 79.268px;
-         transform: rotate(-19.628deg);
-         border-radius: 10.569px;
-         padding: 10px;
-     }
-     .save-tittle{
-        font-size: 0.938rem;
-
-     }
-     .save-to{
-        font-size: 1.321rem;
-     }
-
-
-
- }
+ 
